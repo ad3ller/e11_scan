@@ -29,6 +29,7 @@
 				<Item Name="wf_multi_master.vi" Type="VI" URL="../ctrl/vars/wf_multi_master.vi"/>
 				<Item Name="wf_arb_4chan.vi" Type="VI" URL="../ctrl/vars/wf_arb_4chan.vi"/>
 				<Item Name="WS7_setpoint.vi" Type="VI" URL="../ctrl/vars/WS7_setpoint.vi"/>
+				<Item Name="wf_amp_multi.vi" Type="VI" URL="../ctrl/vars/wf_amp_multi.vi"/>
 			</Item>
 			<Item Name="post_scan.vi" Type="VI" URL="../ctrl/post_scan.vi"/>
 			<Item Name="pre_scan.vi" Type="VI" URL="../ctrl/pre_scan.vi"/>
