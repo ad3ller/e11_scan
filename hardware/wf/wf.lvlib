@@ -11,6 +11,8 @@
 		<Item Name="arb_scale_sym.vi" Type="VI" URL="../arb_scale_sym.vi"/>
 		<Item Name="arb_transmit.vi" Type="VI" URL="../arb_transmit.vi"/>
 		<Item Name="burst_config.vi" Type="VI" URL="../burst_config.vi"/>
+		<Item Name="plot_txv.vi" Type="VI" URL="../wf_tools/plot_txv.vi"/>
+		<Item Name="shift.vi" Type="VI" URL="../wf_tools/shift.vi"/>
 		<Item Name="wf_channel.ctl" Type="VI" URL="../wf_channel.ctl"/>
 		<Item Name="wf_tools.lvlib" Type="Library" URL="../wf_tools/wf_tools.lvlib"/>
 	</Item>
