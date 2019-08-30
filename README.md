@@ -55,13 +55,8 @@ To modify this project for different acquisition hardware, replace the LeCroy su
 
 ## Notes
 
-Be aware of the differences between plug-and-play drivers.  For instance, when requesting data from an oscilloscope with averaging enabled
-some models will wait for the requested number of averages to be acquired before returning a result [e.g., Agilent], whereas others will 
-immediately return the current acquisition state [e.g., Lecroy].  In the latter case, a software hold-off time can be implemented to ensure
-a certain number of repeats are achieved before the data is requested.  Conversely, imposing a hold-off when it's not needed might unnecessarily
-extend the acquisition time.
+Be aware of the differences between plug-and-play drivers.  For instance, when requesting data from an oscilloscope with averaging enabled some models will wait for the requested number of averages to be acquired before returning a result [e.g., Agilent], whereas others will immediately return the current acquisition state [e.g., Lecroy].  In the latter case, a software hold-off time can be implemented to ensure a certain number of fresh repeats are achieved before the data is requested.  Conversely, imposing a hold-off when it's not needed might unnecessarily extend the acquisition time.
 
 The `H5Scan` class in [e11_analysis](https://github.com/ad3ller/e11_analysis) can be used to process `e11_scan` data with python.
 
-[oskar](https://github.com/ad3ller/oskar) is a similar LabVIEW tool with more features (e.g., N-dimensional scans and a modular approach to data acquisition).  Also, it collects consecutive repeat measurements into HDF5 groups, which can more appropriate for very long experiments with very many repeats taken
-over several hours or days. However, for simple measurements, `e11_scan` is considerably less cumbersome. 
+[oskar](https://github.com/ad3ller/oskar) is a similar LabVIEW tool with more features (e.g., N-dimensional scans and a modular approach to data acquisition).  Also, it collects consecutive repeat measurements into HDF5 groups, which can more appropriate for very long experiments with very many repeats taken over several hours or days. However, for simple measurements, `e11_scan` is considerably less cumbersome to use. 
