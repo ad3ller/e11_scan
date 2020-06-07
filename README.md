@@ -2,6 +2,8 @@
 
 Coordinate experiments with LabVIEW.
 
+This project has been archived and is no longer being developed.
+
 ## About
 
 A state machine for running experiments using 1D or 2D scans of hardware parameters (e.g., laser wavelength, applied voltage, delay, ...).
